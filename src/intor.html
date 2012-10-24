@@ -60,32 +60,39 @@
 		</header>
 
 		<div class="container">
-
-			<br>
-			<table class="table table-striped">
-				<tr>
-					<td>地址：</td>
-				</tr>
-				<tr>
-					<td>
-						<p>台南市大學路一號(光復校區) </p>
-						<p>國立成功大學資訊工程學系 雲平大樓 資訊系301室 神經運算與腦機介面實驗室</p>
-					</td>
-				</tr>
-				<tr>
-					<td>電話：</td>
-				</tr>
-				<tr>
-					<td>
-						<p>06-275-7575 ext.62520 ext.74</p>
-					</td>
-				</tr>
-			</table>
+			<ul id="myTab" class="nav nav-tabs">
+				<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+				<li><a href="#profile" data-toggle="tab">Profile</a></li>
+				<li><a href="#dropdown1" data-toggle="tab">dropdown1</a></li>
+				<li><a href="#dropdown2" data-toggle="tab">dropdown2</a></li>
+			</ul>
+			<div id="myTabContent" class="tab-content">
+				<div class="tab-pane fade in active" id="home">
+					<p>a</p>
+				</div>
+				<div class="tab-pane fade" id="profile">
+					<p>b</p>
+				</div>
+				<div class="tab-pane fade" id="dropdown1">
+					<p>c</p>
+				</div>
+				<div class="tab-pane fade" id="dropdown2">
+					<p>d</p>
+				</div>
+			</div>
 		</div>
-
-		<script src="../js/jquery.js"></script>
-		<script src="../js/bootstrap.min.js"></script>
+	</div>
 
 
-	</body>
+
+	<!-- Le javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+
+
+
+
+</body>
 </html>
