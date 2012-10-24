@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://twitter.github.com/bootstrap/examples/starter-template.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Bootstrap, from Twitter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="../css/bootstrap.css" rel="stylesheet">
+		<style>
+			body {
+				padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+			}
+		</style>
+		<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- Le fav and touch icons -->
+		<link rel="SHORTCUT ICON" href="http://ncbci.csie.ncku.edu.tw/favicon.ico" />
+	</head>
+
+	<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="home.html">NCBCI lab</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li><a href="home.html">Home</a></li>
+							<li><a href="award.html">實驗室得獎紀錄</a></li>
+							<li class="active"><a href="teacher.html">指導教授</a></li>
+							<li><a href="intor.html">實驗室簡介</a></li>
+							<li><a href="course.html">課程資訊</a></li>
+							<li><a href="members.html">實驗室成員</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+		</div>
+
+		<header class="jumbotron subhead">
+		<div class="container">
+			<h1>NCBCI lab</h1>
+			<p class="lead">
+			Neural Computing and Brain Computer Interface Lab 神經運算與腦機介面實驗室
+			</p>
+		</div>
+		</header>
+
+		<div class="container">
+			<div class="row">
+				<div class="span3 bs-docs-sidebar">
+					<div data-spy="affix" data-offset-top="100">
+						<ul class="nav nav-list bs-docs-sidenav">
+							<li><a href="#個人資料"><i class="icon-chevron-right"></i>個人資料</a></li>
+							<li><a href="#專利"><i class="icon-chevron-right"></i>專利</a></li>
+							<li><a href="#榮譽"><i class="icon-chevron-right"></i>榮譽</a></li>
+							<li><a href="#指導獲獎紀錄"><i class="icon-chevron-right"></i>指導獲獎紀錄</a></li>
+							<li><a href="#著作"><i class="icon-chevron-right"></i>著作</a></li>
+							<li><a href="#研究計畫"><i class="icon-chevron-right"></i>研究計畫</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="span9">
+					<table class="table">
+						<tr>
+							<td height="24" colspan="4">
+								<div align="left">
+									<p id="個人資料" style="padding-top: 50px;"><span class="style5">梁勝富 副教授</span></p>
+								</div>
+							</td>
+							<td width="210" rowspan="16"><div align="center"><img src="http://ncbci.csie.ncku.edu.tw/sfliang/ddt.jpg" width="210" height="280"></div></td>
+						</tr>
+						<tr>
+							<td colspan="4" bgcolor="#CCCCCC"><div align="left"><span class="style4">聯絡方式</span></div></td>
+						</tr>
+						<tr>
+							<td colspan="2"><div align="left">電話 +866-6-275-7575 ext. 62549</div></td>
+							<td colspan="2"><div align="left">E-Mail: sfliang@mail.ncku.edu.tw</div></td>
+						</tr>
+						<tr>
+							<td colspan="2"><div align="left">傳真 06-274-7076</div></td>
+							<td colspan="2"><div align="left">實驗室 http://ncbci.csie.ncku.edu.tw</div></td>
+						</tr>
+						<tr>
+							<td colspan="4" bgcolor="#CCCCCC"><div align="left"><span class="style1"><strong> 學歷</strong></span></div></td>
+						</tr>
+						<tr>
+							<td width="129"><div align="center">學校</div></td>
+							<td width="165"><div align="center">主修</div></td>
+							<td><div align="center">學位</div></td>
+							<td><div align="center">期間</div></td>
+						</tr>
+						<tr>
+							<td><div align="left">國立交通大學</div></td>
+							<td><div align="left">電控所 </div></td>
+							<td><div align="left">博士</div></td>
+							<td><div align="left">1996/09 至 2000/12</div></td>
+						</tr>
+						<tr>
+							<td height="20"><div align="left">國立交通大學</div></td>
+							<td><div align="left">控制工程所 </div></td>
+							<td><div align="left">碩士</div></td>
+							<td><div align="left">1994/09 至 1996/06 </div></td>
+						</tr>
+						<tr>
+							<td><div align="left">國立交通大學</div></td>
+							<td>  <div align="left">控制工程所 </div></td>
+							<td><div align="left">學士</div></td>
+							<td><div align="left">1990/09 至 1994/06 </div></td>
+						</tr>
+						<tr>
+							<td colspan="4" bgcolor="#CCCCCC"><div align="left"><span class="style4">經歷</span></div></td>
+						</tr>
+						<tr>
+							<td><div align="center">機構</div></td>
+							<td bgcolor="#FFFFFF"><div align="center">部門</div></td>
+							<td width="129" bgcolor="#FFFFFF"><div align="center">職稱</div></td>
+							<td width="204" bgcolor="#FFFFFF"><div align="center">期間</div></td>
+						</tr>
+						<tr>
+							<td><div align="center">國立成功大學</div></td>
+							<td>資訊工程學系（所）/醫學資訊所</td>
+							<td><div align="center">副教授</div></td>
+							<td><div align="center">2010/08~</div></td>
+						</tr>
+						<tr>
+							<td height="36"><div align="center">國立成功大學</div></td>
+							<td>        <p align="center">資訊工程學系（所）/醫學資訊所</p>        </td>
+							<td><div align="center">助理教授</div></td>
+							<td><div align="center">2006/08 至2010/07</div></td>
+						</tr>
+						<tr>
+							<td><div align="center">國立交通大學</div></td>
+							<td> <div align="center">生物科技系 </div></td>
+							<td><div align="center">助理教授 </div></td>
+							<td><div align="center">2005/10 至 2006/07</div></td>
+						</tr>
+						<tr>
+							<td><div align="center">國立交通大學</div></td>
+							<td> <div align="center">腦科學中心 </div></td>
+							<td><div align="center">研究助理教授</div></td>
+							<td><div align="center">2003/10 至 2005/10</div></td>
+						</tr>
+						<tr>
+							<td><div align="center">國立交通大學</div></td>
+							<td> <div align="center">電機與控制工程系 </div></td>
+							<td><div align="center">研究助理教授</div></td>
+							<td><div align="center">2001/01 至 2003/10</div></td>
+						</tr>
+						<tr bgcolor="#CCCCCC">
+							<td colspan="5"><div align="left"><span class="style1"><strong>專長</strong></span> </div></td>
+						</tr>
+						<tr bgcolor="#FFFFFF">
+							<td colspan="5" class="style1 style6"><div align="left">1.智慧型科技及其應用　2.神經認知腦機界面　3.生醫訊號處理　4.可攜式嵌入式系統　5.多媒體訊號與系統</div></td>
+						</tr>
+						<tr bgcolor="#CCCCCC">
+							<td height="25" colspan="5"><div align="left"><span class="style4"><a name="專利"></a>專利</span></div></td>
+						</tr>
+						<tr bgcolor="#FFFFFF">
+							<td height="33" colspan="5"><ol>
+									<li>            
+									<div align="left"><span class="style6">葉賜旭 , 杜茂楓 , <strong>梁勝富 </strong>，使用腦波控制之醫療照護溝通裝置，中華民國發明專利 I290037 ， 2007 。 <br>
+									</span></div>
+									</li>
+									<li class="style6">
+									<div align="left">
+										林進燈、徐聖哲、 <strong>梁勝富 </strong>，泛用型數位影像防震系統與方法，中華民國專利 I307443 ， 2009 <br>
+									</div>
+									</li>
+									<li class="style6">
+									<div align="left">
+										林進燈、蒲鶴章、 <strong>梁勝富 </strong>、陳嘉琳，可強化影像解析度之裝置與方法 ，中華民國專利 198424 ， 2004 。 <br>
+									</div>
+									</li>
+									<li class="style6">
+									<div align="left">
+										蘇文鈺、 <strong>梁勝富 </strong>、鍾天厚， Method and Apparatus of Synthesizing Plucked String Instruments Using Recurrent Neural Networks, US Patent 6292791, 2001. <br>
+									</div>
+									</li>
+									<li class="style6">
+									<div align="left">
+										蘇文鈺、 <strong>梁勝富 </strong>， 樂器實體分析合成裝置及其學習方法 中華民國專利， 144075 2001 。 <br>
+									</div>
+									</li>
+									<li class="style6">
+									<div align="left">
+										蘇文鈺、 <strong>梁勝富 </strong>、鍾天厚，應用電腦音樂合成的撥弦樂器之裝置與方法，中華民國專利 111953 ， 2000 。 <br>
+									</div>
+									</li>
+									<li class="style6">
+									<div align="left">
+										Method and Apparatus of Synthesizing Plucked String Instruments Using Recurrent Neural Networks,” US Patent # 6,292,791, 2000 </div>
+									</li>
+							</ol></td>
+						</tr>
+						<tr bgcolor="#CCCCCC">
+							<td colspan="5" class="style4"><div align="left"><a name="榮譽"></a>榮譽</div></td>
+						</tr>
+						<tr class="style1">
+							<td colspan="5"><div align="left" class="style7">1.Honor Member of Phi Tau Phi ( 斐陶斐 ) Scholastic Honor Society in 2001.</div></td>
+						</tr>
+						<tr class="style1">
+							<td colspan="5"><div align="left"><span class="style7">2.Journal of Information Science and Engineering Best Paper in 2005.</span></div></td>
+						</tr>
+						<tr class="style1">
+							<td colspan="5"><div align="left" class="style7">
+									<div align="justify">3. 成功大學98學年度教學優良教師獎</div>
+							</div></td>
+						</tr>
+						<tr bgcolor="#CCCCCC">
+							<td height="19" colspan="5" bgcolor="#CCCCCC"><div align="left"><span class="style1"><strong><a name="著作"></a>著作</strong></span></div></td>
+						</tr>
+						<tr>
+							<td colspan="5"><div align="left">
+									<table cellpadding="0">
+										<tr>
+											<td width="30" valign="top"><p>&nbsp; </p></td>
+											<td width="848" valign="top"><p>A. &nbsp; <strong>Refereed Journal Papers </strong></p>
+												<ol>
+													<li>
+													<div align="justify"> Chin-En Kuo, <strong>Sheng-Fu Liang*</strong>, Shao-Sheng Lu, Cheng-Hao Wen, and Chih-Sheng Lin,
+														“Estimation and Prediction of Drug Therapy on The Termination of Atrial Fibrillation by Autoregressive Model with Exogenous Inputs,”<em>IEEE Transactions on Information Technology in Biomedicine</em>, 
+
+
+														Accepted. 
+
+														(SCI) <br>
+													</div>
+													</li>
+													<li>                    
+													<div align="justify">S.T. Pan, C. E. Kuo, J. H Zeng and <strong>S. F. Liang</strong>*,
+														“A transition-constrained discrete hidden Markov model for automatic sleep staging,” 
+														<em>BioMedical Engineering OnLine</em>, 11:52, 2012. (SCI)<br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">                      D. W. Chang, Y. D. Liu, C. P. Young, J. J. Chen, Y. H. Chen, C. Y. Chen, Y. C. Hsu ,F. Z, Shaw, and <strong>S. F. Liang* </strong>, “Design and Implementation of a Modularized Polysomnography System,” <em>IEEE Trans. on Instrumentation &amp; Measurement</em>,  vol. 61, no. 6, pp. 1649-1657, 2012. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang*</strong>, C. E. Kuo, Y. H. Hu, Y. H. Pan, Y. H. Wang, “Automatic Stage Scoring of Single-Channel Sleep EEG by Using Multiscale Entropy and Autoregressive Models,”<em> IEEE Trans. on Instrumentation &amp; Measurement</em>,
+
+
+														vol. 61, no. 6, pp. 1649-1657, 2012.
+
+														(SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang*</strong>, C. E. Kuo, Y. H. Hu and Y. S. Cheng, “A rule-based automatic sleep staging method,” <em>Journal of Neuroscience Methods </em>, vol. 205, no.1, pp. 169-176, 2012. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">D. W. Chang, <strong>S. F. Liang</strong>, C. P. Young, F. Z. Shaw, W. Y. Su, Y. D. Liu, Y. L. Wang, Y. C. Liu, J. J. Chen and C. Y. Chen, “A Versatile Wireless Portable Monitoring System for Brain-Behavior Approaches,”<em> IEEE Journal on Emerging and Selected Topics in Circuits and Systems</em>, vol. 1, no.4, pp. 440-450, 2011.<br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">T. J. Chen, H.M. Chiueh, <strong>S. F. Liang </strong>, S. T. Chang, C. Jeng, Y. C. Hsu, and T. C. Chien, “The Implementation of a Low-Power Biomedical Signal Processor for Real-Time Epileptic Seizure Detection on Absence Animal Models,” <em>IEEE Journal on Emerging and Selected Topics in Circuits and Systems </em>, vol. 1, no.4, pp. 613-621, 2011. <br>
+													</div>
+													</li>
+													<li> 
+													<div align="justify"><strong>S. F. Liang* </strong>, Y. C. Liao, F. Z. Shaw, D. W. Chang, C. P. Young, H. M. Chiueh, “Closed-loop Seizure Control on Epileptic Rat Models,” <em>Journal of Neural Engineering </em>, vol. 8, 045001, 10 pages, 2011. (SCI) <br>
+													</div>
+													</li>
+													<li>                    
+													<div align="justify">&nbsp; Y. H. Pan, Y. H. Wang, <strong>S. F. Liang </strong> and K. T. Lee, “Fast Computation of Sample Entropy and Approximate Entropy in Biomedicine,” <em>Computer Methods and Programs in Biomedicine </em>,
+
+
+														vol. 104, pp. 382-396
+
+														. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. P. Young, <strong>S. F. Liang </strong>, D. W. Chang, Y. C. Liao, F. Z. Shaw and C. H. Hsieh, “A Portable Wireless On-line Closed-loop Seizure Controller in Freely Moving Rats,” <em>IEEE Trans. on Instrumentation &amp; Measurement </em>, vol. 60, no.2, pp. 513-521, 2011.(SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong>, H. C. Wang, W. L. Chang, “ Combination of EEG Complexity and Spectral Analysis for Epilepsy Diagnosis and Seizure Detection,” <em>EURASIP Journal on Advances in Signal Processing <strong>, </strong></em>vol. 2010, 853434, 15 pages, 2010. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong>, H. M. Chen and Y. C. Liu, “Image Enlargement by Applying Coordinate Rotation and Kernel Stretching to Interpolation Kernels,” <em>EURASIP Journal on Advances in Signal Processing, </em> vol. 2010, 576831, 18 pages, 2010. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. C. Huang, <strong>S. F. Liang </strong>, M. S. Young and F. Z. Shaw, “A Novel Application of the S-transform in Removing Powerline Interference from Biomedical Signals,” <em>Physiological Measurement </em>, vol. 30, pp. 13-27, 2009. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong>, S. M. Lu, J. Y. Chang and C. T. Lin, “A Novel Two-Stage Impulse Noise Removal Technique Based on Neural Networks and Fuzzy Decision,&quot; <em>IEEE Trans. on Fuzzy Systems </em>, vol. 16, no. 4, pp. 863-873, 2008. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">Y. S. Tsai, I. F. Chung, J. C. Simpson, M. I. Lee, C. C. Hsiung, T. Y. Chiu, L. S. Kao, T. C. Chiu, C. T. Lin, W. C. Lin, <strong>S. F. Liang </strong>, C. C. Lin, “Automated Recognition System to Classify Subcellular Protein Localizations in Images of Different Cell Lines Acquired by Different Imaging Systems,” <em>Microscopy Research and Technique </em>, vol. 71, no. 4, pp. 305-314, 2008. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C.T. Lin, L. W. Ko, J. C. Chiou, J. R. Duann, R. S. Huang, <strong>S. F. Liang </strong>, T. W. Chiu, and T. P. Jung, “Noninvasive Neural Prostheses Using Mobile &amp; Wireless Electroencephalography,” <em>Proceedings of IEEE </em>, vol. 96, no. 7, pp. 1167-1183, 2008. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, Y. C. Chen, T. Y. Huang, T. T. Chiu, L. W. Ko, and <strong>S. F. Liang </strong>, H. Y. Hsieh, S. H. Hsu and J. R. Duann “Development of Wireless Brain Computer Interface with Embedded Multi-task Scheduling and its Application on Real-time Driver's Drowsiness Detection and Warning,” <em>IEEE Trans. on Biomedical Engineering </em>, vol. 55., no. 5, pp. 1582-1591, 2008. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, K. L. Lin, L. W. Ko, <strong>S. F. Liang </strong>, B. C. Kuo, and I. F. Chung, “Nonparametric Single-trial EEG Feature Extraction and Classification of Driver's Cognitive Responses,” <em>EURASIP Journal on Advances in Signal Processing, <strong></strong></em>vol. 2008, 849040, 10 pages, 2008. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C.T. Lin, N. R. Pal, C.Y. Chuang, T. P. Jung, L. W. Ko, and <strong>S. F. Liang </strong>, “ <a name="OLE_LINK14">EEG-based Subject- and Session-independent Drowsiness Detection: An Unsupervised Approach </a>,” <em>EURASIP Journal on Advances in Signal Processing, </em> vol. 2008, 519480, 11 pages, 2008. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong>, H. M. Chen, and H. C. Wang, “A Spatial and Directional Hybrid Approach for Image Interpolation,” <em>Images and Recognition </em>, vol. 13, no. 3, pp. 34-45, 2007. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">S. C. Hsu, <strong>S. F. Liang </strong>, H. C. Pu, and, C. T. Lin, “A Robust In-Car Digital Image Stabilization Technique,” <em>IEEE Trans. On Systems, Man, and Cybernetics - Part C: Application and Reviews </em>, vol. 37, no. 2, pp. 234-247, 2007. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, I. F. Chung, L. W. Ko, Y. C. Chen, <strong>S. F. Liang </strong> and J. R. Duann, “EEG-based Assessment of Driver Cognitive Responses in a Dynamic Virtual-Reality Driving Environment,” <em>IEEE Trans. on Biomedical Engineering </em>, vol. 54, no. 7, pp. 1349-1352, 2007. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, K. W. Fan, H. C. Pu, S. M. Lu and <strong>S. F. Liang </strong>, “A HVS-Directed Neural-Network-Based Image Resolution Enhancement Scheme for Image Resizing,” <em>IEEE Trans. on Fuzzy Systems </em>, vol. 15, no.4, pp. 605-615, 2007. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, L. W. Ko, I. F. Chung, T. Y. Huang, Y. C. Chen, T. P. Jung, and <strong>S. F. Liang </strong>, “Adaptive EEG-Based Alertness Estimation System by using ICA-Based Fuzzy Neural Networks,” <strong><em></em></strong><em>IEEE Trans. on Circuits and Systems I </em>, vol. 53, no. 11, pp. 2469-2476, 2006. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">S. M. Lu, <strong>S. F. Liang </strong>, and C. T. Lin, “A HVS-Directed Neural-Network-Based Approach for Salt-Pepper Impulse Noise Removal,” <strong><em></em></strong><em>Journal of Information Science and Engineering </em>, vol. 22, no. 4, pp. 925-939, 2006. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, C. M. Yeh, and <strong>S. F. Liang </strong>, “Support-Vector-Based Fuzzy Neural Network for Pattern Classification,” <em>IEEE Trans. on Fuzzy Systems </em>, vol. 14, no. 1, pp. 31-41, 2006. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, C. M. Yeh, J. F. Chung, <strong>S. F. Liang </strong>, and H. C. Pu, “Support-Vector-Based Fuzzy Neural Networks,” <em>International Journal of Computational Intelligence Research </em>, vol. 1, no. 2, pp. 127-138, 2005. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, W. C. Cheng, and <strong>S. F. Liang </strong>, “A 3D Surface Reconstruction Approach Based on Post-Nonlinear ICA Model,” <em>IEEE Trans. on Neural Networks </em>, vol. 16, no. 6, pp. 1638-1650, 2005. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, W. C. Cheng, and <strong>S.F. Liang </strong>, “Neural-Network-Based Adaptive Hybrid-Reflectance Model for 3-D Surface Reconstruction,” <em>IEEE Trans. on Neural Networks </em>, vol. 16, no. 6, pp. 1601-1615, 2005. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, R. C. Wu, <strong>S. F. Liang </strong>, W. H. Chao, Y. J. Chen, and T. P. Jung, “EEG-based Drowsiness Estimation for Safety Driving Using Independent Component Analysis,” <strong><em></em></strong><em>IEEE Trans. on Circuits and Systems </em> I, vol. 52, no. 12, pp. 2726-2738, 2005 <strong>. </strong>(SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, R. C. Wu, T. P. Jung, <strong>S. F. Liang, </strong>and T.Y. Huang, “Estimating Driving Performance Based on EEG Spectrum Analysis,” <em>EURASIP Journal on Applied Signal Processing </em>, vol. 19, pp, 3165-3174, 2005. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. D. Huang, <strong>S. F. Liang </strong>, C. T. Lin, and R. C. Wu, “Machine Learning with Automatic Feature Selection for Multi-Class Protein Fold Classification,” <em>Journal of Information Science and Engineering </em>, vol. 21 no.4, pp. 711-720, 2005. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">S. C. Hsu, <strong>S. F. Liang </strong>, and C. T. Lin, “A Robust Digital Image Stabilization Technique Based on Inverse Triangle Method and Background Detection,” <em>IEEE Trans. on Consumer Electronics </em>, vol. 51, no. 2, pp. 335-345, 2005. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, W. C. Cheng, and <strong>S. F. Liang </strong>, “An On-line ICA-Mixture-Model-based Self-Constructing Fuzzy Neural Network,” <em>IEEE Trans. on Circuits and Systems </em> I , vol. 52, no. 1, pp. 207-221, 2005. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong> and A. W. Y. Su, “Modeling and Analysis of Acoustic Musical Strings by Using Kelly-Lochbaum Lattice Networks,” <em>Journal of Information Science and Engineering </em>, vol. 20, no. 6, pp. 1161-1182, 2004. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. T. Lin, R. C. Wu, J. Y. Chang, and <strong>S. F. Liang </strong>, “A Novel Prosodic-information Synthesizer Based on Recurrent Fuzzy Neural Network for the Chinese TTS System,” <em>IEEE Trans. on Systems, Man, and Cybernetics--PART B: </em> Cybernetics , vol. 34, no. 1, pp. 309-324, 2004. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">A. W. Su and <strong>S. F. Liang </strong>, “A Class of Physical Modeling Recurrent Networks for Analysis/Synthesis of Plucked String Instruments,” <em>IEEE Trans. on Neural Networks </em>, vol. 13, no. 5, pp. 1137-1148, 2002. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">A. W. Su and <strong>S. F. Liang </strong>, “A New Automatic IIR Analysis/Synthesis Technique for Plucked String Instruments,” <em>IEEE Trans. on Signal and Audio Processing </em>, vol. 9, no. 7, pp. 747-754, 2001. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong> and C. T. Lin, “From Tablature Input to Sound Synthesis—The Computer-Aided Composition System for Chin,” <em>International Journal of Fuzzy Systems </em>, vol. 2, no. 4, pp. 278-290, 2000. (SCI)<br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong> and A. W. Su, “Recurrent Neural-Network-Based Physical Model for the Chin and Other Plucked-String Instruments,” <em>Journal of The Audio Engineering Society </em>, vol. 48, no. 11, pp. 1045-1059, 2000. (SCI) <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong>, Alvin W. Su and C. T. Lin, “Model-Based Synthesis of Plucked String Instruments by Using a Class of Scattering Recurrent Networks,” <em>IEEE Trans. on Neural Networks </em>, vol. 11, no. 1, pp. 171-185, 2000. (SCI) </div>
+													</li>
+												</ol>
+												<p align="justify">&nbsp; </p>
+												<p align="justify">&#149;&nbsp; <strong>Conference Papers </strong></p>
+												<div align="justify"></div>                
+												<ol><li><p align="justify">&nbsp;<strong>S. F. Liang </strong>, D. W. Chang, C. P. Young, F. Z. Shaw, Y. D. Liu, T. C. Chien, “Development and Applications of a Wireless Portable Physiological Signal Monitoring System for Freely Moving Rats,” <em>The 3rd International Conference on Neuroprosthetic Devices (ICNPD-2011), </em> Sydney, Australia, Nov. 25-26, 2011.</p>
+													</li>
+													<li>
+													<p align="justify"> C. E. Kuo and <strong>S. F. Liang </strong>, “Automatic Stage Scoring of Single-Channel Sleep EEG based on Multiscale Permutation Entropy,” <em>IEEE Biomedical Circuit and Systems Conference (BioCAS 2011) </em>, San Diego, USA, Nov. 10-12, 2011. </p>
+													</li>
+													<li>
+													<p align="justify"> T. J. Chen, C. Jeng, S. T. Chang, H. M. Chiueh, <strong>S. F. Liang </strong>, Y. C. Hsu, and T. C. Chien “A Hardware Implementation of Real-Time Epileptic Seizure Detector on FPGA,” <em>IEEE Biomedical Circuit and Systems Conference (BioCAS 2011) </em>, San Diego, USA, Nov. 10-12, 2011. </p>
+													</li>
+													<li>
+													<p align="justify">&nbsp;<strong>S. F. Liang </strong>, C. E. Kuo, Y. H. Hu, and Y. S. Cheng, “A Rule-based Automatic Sleep Staging Method,” <em>33rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC '11) </em>, Boston, USA, Aug. 30-Sep. 3, 2011. </p>
+													</li>
+													<li>
+													<p align="justify"> T. J. Chen, C. Jeng, H. M. Chiueh, <strong>S. F. Liang </strong> and Y. C. Hsu, “A Silicon Implementation of Entropy Coding Hardware Accelerator for Epilepsy Seizure Detection,” <em>2011 Symposium on Engineering, Medicine and Biology Applications </em> (SEMBA 2011), Kaohsiung, Taiwan, July 8-10, 2011. </p>
+													</li>
+													<li>
+													<p align="justify">&nbsp;<strong>S. F. Liang </strong>, Y. H. Chen, C. E. Kuo, J. Y. Chen, S. C. Hsu, “A Fuzzy Inference System for Sleep Staging,” <em>The 2011 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE 2011) </em>, Taipei, Taiwan, June 27-30, 2011. </p>
+													</li>
+													<li>
+													<p align="justify">&nbsp;<strong>S. F. Liang </strong>, T. H. Hsieh, W. H. Chen, and K. J. Lin, “Classification of EEG Signals from Musicians and Non-Musicians by Neural Networks,” <em>The 2011 World Congress on Intelligent Control and Automation (WCICA 2011) </em>, Taipei, Taiwan, June 21-25, 2011. </p>
+													</li>
+													<li>
+													<p align="justify"> T. J. Chen, C. Jeng, H. M. Chiueh, <strong>S. F. Liang </strong> and Y. C. Hsu, “The Prototype of Biomedical Signal Processor for Closed-Loop Seizure Control,” <em>IEEE CAS-FEST 2011 Topic: Brain Machine Interface (BMI) </em>, Rio de Janeiro, May 15, 2011. </p>
+													</li>
+													<li>
+													<p align="justify">&nbsp;<strong>S. F. Liang </strong>, C. P. Young, D. W. Chang, F. Z. Shaw, Y. D. Liu, Y. C. Liu, J. J. Chen, “Development of an Actigraph System for Sleep-Wake Identification,” <em>2011 IEEE International Instrumentation and Measurement Technology Conference </em>, Hangzhou, China, May 10-12, 2011. </p>
+													</li>
+													<li>
+													<div align="justify">C. E. Kuo, S. S. Lu, C. S. Lin, <strong>S. F. Liang </strong>, “Estimation and Prediction of Propafenone on The Termination of Atrial Fibrillation by State-space Models,” <em>International Computer Symposium 2010 </em>, Tainan, Taiwan, Dec. 16-18, 2010 <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, F. Z. Shaw, C. P. Young, D. W. Chang, and Y. C. Liao, “A closed-loop brain computer interface for real-time seizure detection and control,” <em>32rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society </em>, 4950-4953, Buenos Aires, Argentina, Aug. 31 – Sep. 4, 2010 <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, W. L. Chang, and H. M. Chiueh, “EEG-based Absence Seizure Detection Methods,” in <em>Proceeding of International Joint Conference on Neural Networks 10 </em>, Barcelona, Spain, July, 1725-1728, 2010. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify"><strong>S. F. Liang </strong>, Y. C. Liao, F. Z. Shaw, and H. M. Chiueh, “Closed-loop seizure control on Epileptic rat models,” <em>39th Neural Interfaces Conference </em>, Long Beach, CA, 21-23 June 2010. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">C. E. Kuo, S. S. Lu, <strong>S. F. Liang </strong>, “Estimation of Therapeutic Effects on Atrial Fibrillation from Swines by Using State-space Models,” The 4th International Symposium on <em>Medical Information and Communication Technology (ISMICT) </em>, Taipei, Mar. 22-25, 2010. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; D. W. Chang, <strong>S. F. Liang </strong>, C. P. Young, F. Z. Shaw, Y. D. Liu, Y. C. Liu and J. J. Chen, &quot;A Wireless Portable Behavioral State and Physiological Signal Monitoring System for Freely Moving Rats&quot;, in <em>Proc. Int. Instrum. Meas. Technol. Conf. </em>, Austin, pp. 1353-1357, 2010. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang, </strong> Y. J. Chen, W. L Chang, “Evaluation of Linear and Nonlinear Models for Epilepsy Diagnosis,” <em>The 17 th National Conference on Fuzzy Theory and Its Application </em>, Kaohsiung , Dec. 18-19, pp. 1247-1251, 2009. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; Y. C. Liao, C. H. Hsieh, <strong>S. F. Liang </strong>, C. P. Young, D. W. Chang, F. Z. Shaw, “A Wireless and Portable Real-time Epilepsy Detection and Control System,” 2009 International Symposium on Biomedical Engineering combined with the Annual Scientific Meeting of <em>Biomedical Engineering Society of R.O.C., </em>Taiwan, Dec. 11-12, 2009. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, C. S. Liu, W. L. Chang, Y. H. Tsao, L. W. Ko, and C. T. Lin, “Assessment of Musical Training Induced Neuroplasticity by Auditory Event Related Potentials and Neural Networks,” in <em>Proceeding of International Joint Conference on Neural Networks 09 </em>, Atlanta, U.S. A, pp. 1797-1801, June, 2009. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, H. C. Wang, and Y. C. Liao, “An Automatic Epileptic Seizure Detection System and its Implementation on An Embedded System,” <em>13th International Conference on Human-Computer Interaction </em>, San Diego, USA, Posters pp. 711-715, July, 2009. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. P. Young, <strong>S. F. Liang </strong>, F. Z. Shaw, D. W. Chang, C. H. Hsieh, and Y. C. Liao, “A Real-time Closed-loop on-line Seizure Monitoring and Controlling System,” <em>1st International Conference on Neuroprosthetic Device </em>, Hsin-Chu, Taiwan, 2009. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, H. C. Wang, W. L. Chang, “Combination of EEG Spectrum and Complexity Analysis for Epileptic Seizure Detection,” 2008 生物資訊科技與應用研討會 , Hsin-Chu, Taiwan. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S.F. Liang </strong>, C.T. Lin, J.L. Jeng, T.W. Chiu, L.W. Ko, R.S. Huang, T.P. Jung, J.R. Duann, “Changes of EEG Spectra from Alertness to Drowsiness in a Driving Simulator,” <em>14th Annual Meeting of the Organization for Human Brain Mapping, </em>Melbourne , Austria , Jun. 15-19, 2008. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C.T. Lin, N. R. Pal, C.Y. Chuang, T.P. Jung, L.W. Ko, <strong>S.F. Liang </strong>, “An EEG-based Subject- and Session-independent Drowsiness Detection,” 2008 <em>IEEE World Congress on Computational Intelligence (WCCI 2008,) </em> Hong Kang, June 1-6, 2008. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S.F. Liang </strong>, C.T. Lin, Y.C. Chen, S.W. Chuang, T.W. Chiu, J.R. Duann, T.P. Jung, L.W. Ko, “EEG Correlates of Motion-Sickness in a Dynamic Driving Simulator,” <em>37th Annual Meeting of the Society for Neuroscience </em>, San Diego, USA, Nov. 3 -7, 2007. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C.T. Lin, L.W. Ko, J.C. Chiou, <strong>S. F. Liang </strong>, T.P. Jung, “A Mobile Brain Computer Interface Platform for Operational Neuroscience,” <em>37th Annual Meeting of the Society for Neuroscience </em>, San Diego, USA, Nov. 3 -7, 2007. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; T.P. Jung, L.W. Ko, J.L. Jeng, R.S. Huang, J.R. Duann, <strong>S.F. Liang </strong>, C.T. Lin, “EEG Spectral Changes from Alertness to Drowsiness in a Dynamic Driving Simulator” <em>37th Annual Meeting of the Society for Neuroscience </em>, San Diego, USA, Nov. 3 -7, 2007. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C.T. Lin, S.W. Chuang, Y.C. Chen, L.W. Ko, <strong>S.F. Liang </strong>, and T.P. Jung, “EEG Effects of Motion Sickness Induced in a Dynamic Virtual Reality Environment,” <em>Proceedings of the 29th Annual International Conference of the IEEE EMBS </em>, Lyon , France , August 23-26, 2007. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C.T. Lin, L.W. Ko, Y.H. Lin, T.P. Jung, <strong>S.F. Liang </strong>, and L.S. Hsiao, “EEG Activities of Dynamic Stimulation in VR Driving Motion Simulator,” <em>12th International Conference on Human-Computer Interaction </em>, Beijing, P.R. China, July 22-27, 2007. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C.T. Lin, T.P. Jung, L.W. Ko, Y.H. Lin, T.Y. Huang, Y.C. Chen, W.C. Lin, and <strong>S.F. Liang </strong>, “EEG Responses of Kinesthetic Stimulation in a Dynamic Driving Simulator,” <em>13th Annual Meeting of the Organization for Human Brain Mapping, </em> Chicago, Illinois. USA , June 10-14, 2007. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. T. Lin L.W. Ko,, K.L. Lin, B.C. Kuo, <strong>S.F. Liang </strong>, I.F. Chung, L.D. Van, “Classification of Driver's Cognitive Responses Using Nonparametric Single-trial EEG Analysis,” <em>2007 IEEE International Symposium on Circuits and Systems </em>, New Orleans, USA, May 27-30, 2007. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; J.C. Chiou, L.W. Ko, C. T. Lin, C. T. Hong, T. P. Jung, <strong>S. F. Liang </strong>, and J. L. Jeng, “Using Novel MEMS EEG Sensors in Detecting Drowsiness Application,” <em>2006 IEEE Biomedical Circuits and Systems Conference (BioCAS 2006) </em>, London, United Kingdom, Nov. 29-Dec. 1, 2006. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. T. Lin, H. Y. Hsieh, L. W. Ko, M. Lin, <strong>S. F. Liang </strong>, “Development of Portable Wireless Brain Computer Interface with Embedded Systems,” <em>2006 IEEE Biomedical Circuits and Systems Conference (BioCAS 2006) </em>, London, United Kingdom, Nov. 29-Dec. 1, 2006.<br> 
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; H. Y. Hsieh, <strong>S. F. Liang </strong>, L. W. Ko, M. Lin, and C. T. Lin, “Development of a Real-Time Wireless Embedded Brain Signal Acquisition/Processing System and its Application on Driver's Drowsiness Estimation,” <em>Proceeding of IEEE International Conference on Systems, Man, and Cybernetics (SMC 2006) </em>, Taipei, Taiwan, Oct. 8-11, 2006. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C.T. Lin, <strong> S.F. Liang </strong>, Y.C. Chen, Y.C. Hsu, and L.W. Ko, “Driver's Drowsiness Estimation by Combining EEG Signal Analysis and ICA-based Fuzzy Neural Networks&quot;, <em>2006 IEEE International Symposium on Circuits and Systems </em>, Kos, Greece, May 21-24, 2006.&nbsp; C. T. Lin, Y. C. Chen, <strong>S. F. Liang </strong>, “Study of Driver's Electroencephalogram under Motion Sickness in Dynamic Virtual Reality Environment,” <em>12th International Conference on Neural Information Processing </em>, Oct. 30~Nov. 2, Taipei, 2005. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. T. Lin, Y. C. Chen, <strong>S. F. Liang </strong>, “Study of Electroencephalogram Changes in an Unexpected Obstacle Dodging Task,” <em>12th International Conference on Neural Information Processing </em>, Oct. 30~Nov. 2, Taipei , 2005. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. T. Lin, W. H. Chao, <strong>S. F. Liang </strong>, “A Single-Trial Event-Related Potential-Based Fuzzy Neural Network for the Recognition of Driver's Cognitive Response,” <em>12th International Conference on Neural Information Processing </em>, Oct. 30~Nov. 2, Taipei , 2005. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang, </strong> C. T. Lin, R. C. Wu, Y. C. Chen, T. Y. Huang, T. P. Jung, “Monitoring Driver's Alertness Based on the Driving Performance Estimation and the EEG Power Spectrum Analysis,” <em>27th IEEE EMBS Annual International Conference </em>, Shanghai, China, September 1-4, 2005,<br> 
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, C. T. Lin, Y. C. Chen, R. C. Wu, T. Y. Huang, and Y. J. Chen, “Adaptive Feature Extractions in an EEG-based Alertness Estimation System,” 2005 <em>IEEE International Symposium on Systems, Man and Cybernetics (SMC 2005) </em>. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. T. Lin, <strong>S. F. Liang </strong>,and, C. M. Yeh, “Fuzzy Neural Network Design using Support Vector Regression for Function Approximation with Outliers,” <em>IEEE International Symposium on Systems, Man and Cybernetics (SMC 2005) </em>. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, C. T. Lin, W. H. Chao, and R. C. Wu, &quot;Classifications of Driver Cognitive Responses From EEG Analysis,&quot; 2005 <em>IEEE International Symposium on Circuits and Systems </em> (ISCAS 2005), Kobe, Japan, May 23-26, 2005. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. T. Lin, <strong>S. F. Liang </strong>, T. Y Huang, R. C. Wu, and Y. J. Chen, &quot;Assessment of Driver Vigilance and Performance Using EEG-based Fuzzy Neural Networks,&quot; 2005 <em>IEEE International Symposium on Circuits and Systems </em>(ISCAS 2005), Kobe, Japan, May 23-26, 2005. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; R. C. Wu, C. T. Lin, T. P. Jung, <strong>S. F. Liang </strong>, and T. Y. Huang, “EEG-Based Fuzzy Neural Network Estimator for Driving Performance,” <em>IEEE International Conference on Systems, Man and Cybernetics </em>, Hague , Netherlands , Oct, 2004. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; S. A. Chen, J. F. Chung, <strong>S. F. Liang </strong>, and C. T. Lin, “Cellular Neural Network (CNN) Circuit Design for the Modeling of Early-stage Human Visual System,” <em>IEEE International Workshop on BioMedial Circuits &amp; Systems </em>, 2004. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; R. C. Wu, C. T. Lin, T. P. Jung, <strong>S. F. Liang </strong>, and T. Y. Huang, “Estimating Driving Performance Based on EEG Spectrum and Fuzzy Neural Network,” in <em>Proceeding of International Joint Conference on Neural Networks </em>, Budapest, Hungary, Jul., 2004. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; R. C. Wu, <strong>S. F. Liang </strong>, C. T. Lin, and C. F. Hsu, &quot;Applications of Event-Related- Potential-Based Brain Computer Interface to Intelligent Transportation Systems,&quot; <em>The 2004 IEEE International Conference on Networking, Sensing, and Control </em>, Taipei , 2004. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. T. Lin, W. C. Cheng, and <strong>S. F. Liang </strong>, “A Neural-Network-Based Adaptive Hybrid-Reflectance Model for 3-D Surface Reconstruction”, in <em>Proceeding of International Joint Conference on Neural Networks </em>, Budapest, Hungary, Jul., 2004. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. H. Huang, <strong>S. F. Liang </strong>, and H. C. Pu, “An Adaptive CNN-Based Retinex Algorithm and Its Analog Circuit Design for Moving Image Enhancement,” <em>The 2nd IEEE International Conference on Circuits and Systems for Communications </em>, Moscow, Russia, 2004, <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; C. T. Lin, C. M. Yeh, and <strong>S. F. Liang </strong>, “Skew Estimation of Document Images Using Fuzzy C-Regression Models,” CVGIP 2004, Hualian , Taiwan , 2004.<br> 
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; R. C. Wu, <strong>S. F. Liang </strong>, and C. T. Lin, &quot;Analysis of Event-Related Potential Signals for Brain Computer Interface,&quot; The <em>Joint Conf. on AI, Fuzzy System, and Grey System </em>, Taipei, 2003. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; S. M. Lu, H. C. Pu, <strong>S. F. Liang </strong>, and C. T. Lin, &quot;A HVS-directed Neural-Network-based Approach for Impulse-noise Removal from Highly Corrupted Images,” <em>2003 IEEE International Conference on Systems, Man and Cybernetics </em>, vol. 1, pp. 72 –77, 2003. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; H. C. Pu, C. T. Lin, <strong>S. F. Liang </strong>, and N. Kumar, “A Novel Neural-Network-Based Image Resolution Enhancement,” in <em>Proceedings of The IEEE International Conference on Fuzzy Systems </em>, St. Louis, MO., 2003. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; A. W. Su, <strong>S. F. Liang </strong>, W. C. Chang and C. T. Lin, “A Neural-Fuzzy Based Interactive Musical Accompaniment System,” in <em>Proceedings of the IASTED International Conference, Applied Informatics Symposium 1 Artificial Intelligence and Applications </em>, Innsbruck, Austria, pp. 241-246, 2001. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; A. W. Su and <strong>S. F. Liang </strong>, “ A Generalized Model-Based Analysis/Synthesis Method for Plucked-String Instruments by Using Recurrent Nerual Networks,” in <em>Proceeding of the 106th Convention of the Audio Engineering Society </em>, 1999. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, A. W. Su and C. T. Lin, “A New Recurrent-Network-Based Music Synthesis Method for Chinese Plucked-String Instruments-Pipa and Qin,” in <em>Proceeding of International Joint Conference on Neural Networks </em>, Washington D.C. , 1999. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong>, A. W. Su and C. T. Lin, “A New Accurate Model-Based Music Synthesis Technique by Using Scattering Recurrent Neural Networks,” in <em>Proceedings of 16th ICA/135th Meeting of Acoustical Society of America </em>, pp. 2535-2536, Seattle, 1998. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; A. W. Su and <strong>S. F. Liang </strong>, “Synthesis of Plucked-String Tones by Physical Modeling with Recurrent Neural Networks,” in <em>Proceedings of the IEEE 1997 Workshop on Multimedia Signal Processing </em>, (Princeton, NJ, 1997), pp.71-76, 1997 <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong> and A. W. Su, “From Vibration Measurement to Physical Modeling of Musical Instruments-A Novel Music Synthesis Approach,” <em>the 5th National Conference on the Society of Sound and Vibration </em>, 1997. <br>
+													</div>
+													</li>
+													<li>
+													<div align="justify">&nbsp; <strong>S. F. Liang </strong> and Alvin W.Y. Su, “Dynamics Modeling of Musical String by Linear Scattering Recurrent Network”, <em>ICS'96 Proceedings on Artificial Intelligence </em>, pp. 263-270, Taiwan , 1996. </div>
+													</li>
+												</ol>
+												<p>&#149;<strong>中文論文</strong></p>
+												<ol>
+													<li>
+													<p>&nbsp; <strong>梁勝富 </strong>、陳應王皇、陳俊宇、許家瑚、郭至恩 「結合基因演算法與模糊推論之睡眠判讀系統」，第十九屆模糊理論與應用研討會，雲林、台灣， Nov. 18-19, 2011 。 </p>
+													</li>
+													<li>
+													<p>&nbsp; 陳鵬宇、陳應王皇、郭至恩、 <strong>梁勝富 </strong><strong>「 </strong>自動午睡第二週期偵測系統 - 單通道眼動訊號之應用 <strong>」 </strong>， 2011 年生物醫學工程研討會，台南、台灣， Aug. 19-20, 2011 。 </p>
+													</li>
+													<li>
+													<p>&nbsp; 林婷涵、吳佩珊、蕭富仁、 <strong>梁勝富 </strong><strong>「 </strong>分析不確定性與情緒對視覺運動行為之影響 <strong>」 </strong>， 2011 年生物醫學工程研討會，台南、台灣， Aug. 19-20, 2011 。 </p>
+													</li>
+													<li>
+													<p>劉人瑜、林桂如<strong>、 梁勝富 「 </strong>對應聲音回饋對動作學習的效益 <strong>」， </strong>2010 年生物醫學工程研討會，高雄、台灣， Dec 2010 。 </p>
+													</li>
+													<li>
+													<p>&nbsp; 劉晏甄、<strong> 梁勝富 </strong>「羽球運動員與非運動員之擊球表現及姿勢之探討」， <strong>， </strong>2010 年生物醫學工程研討會，高雄、台灣， Dec 2010 。 </p>
+													</li>
+													<li> <strong>梁勝富 、</strong>陳應王皇、陳俊宇、林婷涵、陳鵬宇、陳偉儀 「基於模糊推論系統的自動睡眠分期方法」，第十八屆模糊理論與應用研討會，花蓮、台灣， Dec 2010 。 </li>
+												</ol>                
+												<p align="left">&nbsp;&#149; <strong>Other Publications </strong></p>                <ol>
+													<li class="style1">
+													<p><strong>梁勝富</strong> , 資訊科技與神經工程，科學發展月刊， 461 期 , pp. 32-36, 2011 。 </p>
+													</li>
+													<li class="style1"><strong>梁勝富 , </strong>以合成音樂刺激進行人類音樂感知模型建構，國科會工程科技通訊， 104 期 , pp. 114-118, 2010 。 <br>
+													</li>
+											</ol></td>
+										</tr>
+									</table>
+								</div>
+							</td>
+						</tr>
+						<tr bgcolor="#CCCCCC">
+							<td colspan="5"><div align="left"><span class="style1"><strong><a name="研究計畫"></a>研究計劃</strong></span></div></td>
+						</tr>
+						<tr>
+							<td colspan="5"><div align="center"></div>      
+								<table border="1" cellpadding="0" cellspacing="0">
+									<tr>
+										<td align="middle" width="66%"><div align="left">計畫名稱 </div></td>
+										<td align="middle" width="14%">起迄日期 </td>
+										<td align="middle" width="20%">補助單位 </td>
+									</tr>
+									<tr>
+										<td align="middle" width="66%"><div align="left">結合電極陣列之精神認知狀態估測技術及其在嵌入式系統之實現<br> 
+												(主持人，NSC 95-2221-E-009-002) </div></td>
+										<td align="middle" width="14%">2006 ~ 2006 </td>
+										<td align="middle" width="20%">國科會 </td>
+									</tr>
+									<tr>
+										<td align="middle" width="66%"><div align="left">以合成音樂刺激進行人類音樂感知模型建構<br>
+												(主持人，NSC 95-2221-E-006-507-MY2) </div></td>
+										<td align="middle" width="14%">2006 ~ 2008 </td>
+										<td align="middle" width="20%">國科會 </td>
+									</tr>
+									<tr>
+										<td align="middle"><div align="left">智慧型生物訊號誘導藥物釋放系統前瞻研究:以癲癇症為模式-病理訊號偵測並應用於藥物釋放系統之誘導(子計畫1)<br>
+												(主持人，NSC 96-2627-B-006-005) </div></td>
+										<td align="middle">2007 ~ 2008 </td>
+										<td align="middle">國科會 </td>
+									</tr>
+									<tr>
+										<td align="middle"><p align="left">無線嵌入式腦機介面系統：應用於癲癇偵測與抑制 </p>
+											<p align="left">大專專題研究計畫(主持人, NSC96-2815-C-006 -047 -E) </p>            </td>
+										<td align="middle">2007 ~ 2008 </td>
+										<td align="middle">國科會 </td>
+									</tr>
+									<tr>
+										<td align="middle"><p align="left">智慧型生物訊號誘導藥物釋放系統前瞻研究 : 以癲癇症為模式 -- 病理訊號偵測並應用於藥物釋放系統之誘導 (主持人,NSC 97-2627-B-006 -005  ) </p>            </td>
+										<td align="middle">2008 ~ 2009</td>
+										<td align="middle">國科會 </td>
+									</tr>
+									<tr>
+										<td align="middle"><p align="left">電刺激對動作學習的效益 大專專題研究計畫 (主持人,NSC 97-2815-C-006-087-E   ) </p>            </td>
+										<td align="middle">2009</td>
+										<td align="middle">國科會 </td>
+									</tr>
+									<tr>
+										<td align="middle"><p align="left">音樂彈奏學習與認知回饋的交互影響關係 大專專題研究計畫<br>
+											(主持人,NSC 97-2815-C-006-096-E    )</p>            </td>
+										<td align="middle">2009</td>
+										<td align="middle">國科會 </td>
+									</tr>
+									<tr>
+										<td align="middle"><p align="left">智慧型生物訊號誘導藥物釋放系統前瞻研究 : 以癲癇症為模式 -- 病理訊號偵測並應用於藥物釋放系統之誘導  (主持人,NSC98-2627-B-006 -001     ) </p>            </td>
+										<td align="middle">2009 ~ 2010 </td>
+										<td align="middle">國科會</td>
+									</tr>
+									<tr>
+										<td align="middle"><p align="left">午睡與程序記憶強化之探討 大專專題研究計畫 NSC 98-2815-C-006-089-E </p>            </td>
+										<td align="middle">2010</td>
+										<td align="middle">國科會</td>
+									</tr>
+									<tr>
+										<td align="middle"><p align="left">人類睡眠與表現之相關連結研究及其應用於表現強化之人機界面開發 </p>
+											<p align="left">NSC98-2221-E-006 -161 -MY3 </p></td>
+										<td align="middle">2010</td>
+										<td align="middle">國科會</td>
+									</tr>
+									<tr>
+										<td align="middle"><p align="left">睡眠品質紀錄錶 </p>
+											<p align="left">NCKU-Delta 研發計畫 D99-09 </p></td>
+										<td align="middle">2010</td>
+										<td align="middle">台達電</td>
+									</tr>
+									<tr>
+										<td align="middle"><div align="left">神經科學之跨領域訓練：以睡眠分析偵測為例 教育部跨學門科學人才培育銜接計畫</div>            <p align="left">99-B3-2 </p></td>
+										<td align="middle">2010</td>
+										<td align="middle">教育部</td>
+									</tr>
+								</table>      
+								<p>&nbsp;</p></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+
+		</div> <!-- /container -->
+	</div>
+
+	<!-- Le javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/affix.js"></script>
+	<!--
+	<script src="../js/bootstrap-transition.js"></script>
+	<script src="../js/bootstrap-alert.js"></script>
+	<script src="../js/bootstrap-modal.js"></script>
+	<script src="../js/bootstrap-dropdown.js"></script>
+	<script src="../js/bootstrap-scrollspy.js"></script>
+	<script src="../js/bootstrap-tab.js"></script>
+	<script src="../js/bootstrap-tooltip.js"></script>
+	<script src="../js/bootstrap-popover.js"></script>
+	<script src="../js/bootstrap-button.js"></script>
+	<script src="../js/bootstrap-collapse.js"></script>
+	<script src="../js/bootstrap-carousel.js"></script>
+	<script src="../js/bootstrap-typeahead.js"></script>
+	--!>
+
+
+
+</body></html>

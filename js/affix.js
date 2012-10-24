@@ -1,0 +1,2 @@
+$('#navbar').affix()
+$('#navbar').scrollspy()
